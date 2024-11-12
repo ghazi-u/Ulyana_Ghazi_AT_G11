@@ -8,11 +8,8 @@ public class Massive3 {
         int leanth = 3;
 
         for (int it : numbers) {
-          if (it % number / 3) {
-
-               summass =
 
         }
+
+
     }
-
-

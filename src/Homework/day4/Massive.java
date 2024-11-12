@@ -5,7 +5,7 @@ package Homework.day4;
 
 public class Massive {
 
-    public static void countsum(int[] numbers, int number) {
+    public void countsum(int[] numbers, int number) {
 
         int countsum = 0;
 
@@ -20,10 +20,9 @@ public class Massive {
     }
 
 
-    public static void main(String[] args) {
-        int[] numbers = new int[]{1, 2, 4, 5, 8, 9};
+    //public static void main(String[] args) {
+       // int[] numbers = new int[]{1, 2, 4, 5, 8, 9};
 
-        countsum(numbers, 2);
+        //countsum(numbers, 2);
     }
 
-}
