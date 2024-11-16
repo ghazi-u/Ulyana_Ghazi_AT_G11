@@ -3,13 +3,23 @@ package Homework.day4;
 // которые кратны первой цифре длины этого массива (массив подается в сигнатуру метода)
 
 public class Massive3 {
-    public static void summass(int[] numbers, int number) {
+    public int sum(int[] elements) {
 
-        int leanth = 3;
+        int sum = 0;
+        int elementsLenght = elements.length;
+        int firstLengthsNum = 0;
 
-        for (int it : numbers) {
-
+        while (elementsLenght >= 10) {
+            elementsLenght /= 10;
         }
 
+        firstLengthsNum = elementsLenght;
 
-    }
+        for (int i : elements) {
+            if (i % firstLengthsNum == 0) {
+                sum += i;
+            }
+        }
+
+        System.out.println(sum);
+        return sum;

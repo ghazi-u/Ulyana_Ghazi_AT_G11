@@ -6,7 +6,7 @@ package Homework.day4;
 
 
 public class Massive2 {
-    public static int[] backmassive(int[] numbers, int number) {
+    public static void backmassive(int[] numbers, int number) {
 
         int NewArroyLeanth = 0;
         int x = 0;
